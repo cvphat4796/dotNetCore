@@ -28,7 +28,7 @@ namespace dotNetCore
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
-            //app.UseMvc();
+            app.UseMvc();
         }
     }
 }
